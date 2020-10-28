@@ -10,8 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51deea278b9a37741b1f40c93babb615, type: 3}
-  m_Name: StatingState
+  m_Name: A1
   m_EditorClassIdentifier: 
-  storyText: 'Here you can write you story text
+  storyText: 'Welcome.
 
-    Let''s try it.'
+    Press 1 or 2 or 3 etc.
+
+
+    1. Next slide.
+
+    2. You
+    have no choise.'
+  nextStates:
+  - {fileID: 11400000, guid: a87f50b66c656c849b898bd7eb40cf3a, type: 2}
+  - {fileID: 11400000, guid: a87f50b66c656c849b898bd7eb40cf3a, type: 2}
